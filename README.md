@@ -1,2 +1,1 @@
-# Website-Betawi
-Betawi Interactive web platform to explore and preserve Betawi culture with mini games, 3D &amp; AR traditional clothing, and a chatbot.
+Untuk informasi lebih lengkap, silakan unduh dan buka file ZIP yang telah saya unggah di Google Drive, karena sebagian besar file saya memiliki ukuran yang cukup besar.
