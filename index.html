@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+<script src="ani.js" defer></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" scale="1.0">
+    <title>Adat Betawi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italianno&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="all-konten">
+
+        <!--Navbar-->
+
+        <div id="hover-area"></div>
+        <header>
+            <nav>
+                <a href="#awalancuy">
+                    <img class="home-link" src="./aset/logo.jpg" alt="logo">
+                </a>
+                <div class="navbar-right">
+                    <div class="teksNav">
+                        <a href="#RumahAdat">Rumah Adat</a>
+                        <a href="#Kuliner">Kuliner</a>
+                        <a href="#Busana">Busana</a>
+                    </div>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="search">
+                        <button type="button" id="search-toggle">
+                            <img src="./aset/search-bar.svg" alt="search-bar">
+                        </button>
+                        <form class="search-bar">
+                            <input type="text" id="searchBox" placeholder="Search..." />
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <!--Awalan-->
+
+        <div class="awalan" id="awalancuy">
+            <div class="teks">
+                <div class="teksBesar">
+                    <h1>Betawi,</h1>
+                    <h1>Warna Asli Jakarta</h1>
+                </div>
+                <div class="teksKecil">
+                    <p>Setiap tarian, pakaian, dan kuliner menyimpan cerita tentang akar kota ini.</p>
+                </div>
+            </div>
+            <div class="eksplore">
+                <div class="drag"><h2>Explore</h2><img src="./aset/explore.png"></div>
+                <div class="track"><h2>Slide to Right...</h2></div>
+                <div class="point"></div>
+            </div>
+        </div>
+
+
+        <!--Pemantik-->
+
+        <div class="pemantik" id="pemantik">
+            <div class="isi-konten-pemantik">
+                <div class="h1-pemantik"><h1>Masalah Kebudayaan di Indonesia</h1></div>
+                <div class="gambar-pemantik">
+                    <img src="./aset/memilih.png">
+                </div>
+                <div class="timeline">
+                    <div class="garis-gede">
+                        <div class="garis-pemantik2">
+                            <svg width="1175" height="500">
+                                    <line class="garisss" x1="5" y1="250" x2="1170" y2="250" >
+                                    </line>
+                                </svg>
+                        </div>
+                    </div>
+                    <div class="segitiga">
+                        <img src="./aset/segitiga.png">
+                        <img src="./aset/segitiga.png">
+                        <img src="./aset/segitiga.png">
+                        <img src="./aset/segitiga.png">
+                    </div>
+                </div>
+                <div class="isi-teks-timeline">
+                    <div class="isinya">
+                            <h2>Era Baru</h2>
+                            <div class="garis-pemantik">
+                                <svg width="1000" height="1000">
+                                    <line x1="0" y1="165" x2="250" y2="165" stroke="black" stroke-width="2">
+                                    </line>
+                                </svg>
+                            </div>
+                            <p>Di Era sekarang, banyak masyarakat terutama anak muda, mulai meninggalkan budaya mereka. Mereka lebih cenderung mengikuti kebudayaan barat dan berperilaku seperti orang-orang Barat.</p>
+                    </div>
+                    <div class="isinya">
+                            <h2>Dampak</h2>
+                            <div class="garis-pemantik">
+                                <svg width="1000" height="1000">
+                                    <line x1="0" y1="165" x2="250" y2="165" stroke="black" stroke-width="2">
+                                    </line>
+                                </svg>
+                            </div>
+                                <ul>
+                                    <li>Erosi nilai-nilai lokal : Hilangnya budaya lokal.</li>
+                                    <li>Munculnya westernisasi : Gaya hidup kebarat-baratan</li>
+                                    <li>Homogenisasi budaya : Penyatuan banyak budaya jadi satu.</li>
+                                </ul>
+                    </div>
+                    <div class="isinya">
+                            <h2>Penyebab</h2>
+                            <div class="garis-pemantik">
+                                <svg width="1000" height="1000">
+                                    <line x1="0" y1="165" x2="250" y2="165" stroke="black" stroke-width="2">
+                                    </line>
+                                </svg>
+                            </div>
+                                <ul>
+                                    <li>Globalisasi : Arus informasi cepat.</li>
+                                    <li>Klaim Budaya : Diambil negara lain.</li>
+                                    <li>Regenerasi yang lemah : Kurangnya minat generasi muda</li>
+                                </ul>
+                    </div>
+                    <div class="isinya">
+                            <h2>Solusi</h2>
+                            <div class="garis-pemantik">
+                                <svg width="1000" height="1000">
+                                    <line x1="0" y1="165" x2="250" y2="165" stroke="black" stroke-width="2">
+                                    </line>
+                                </svg>
+                            </div>
+                            <p>Inovasi Digital.</p>
+                    </div>
+                    <div class="garis-pemantik3">
+                        <div class="garis-hantu"></div>
+                        <div class="teks-pemantik-bawah">
+                            <p>Di website ini, kamu akan melihat berbagai inovasi digital yang menakjubkan.
+                            Mulai dari 3D Modelling, Minigame, dan masih banyak lagi.
+                            </p>
+                        </div>
+                        <div class="gambar-pemantik-bawah">
+                            <img src="./aset/3d.jpg">
+                            <img src="./aset/minigame.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Rumah Adat-->
+
+        <div class="RumahAdat" id="RumahAdat">
+            <div class="teks-awal">
+                <div class="gambar-rumah">
+                    <img src="./aset/rumah.png">
+                </div>
+                <div class="teks-rumah">
+                    <svg viewBox="0 0 1200 300">
+                        <text x="600" y="100">RUMAH ADAT</text>
+                    </svg>
+                </div>
+            </div>
+            <div class="isi1">
+                <div class="isi1-2">
+                    <div class="teksMungil">
+                        <p>Rumah Adat Betawi dikenal dengan nama <span class="khusus">Rumah Kebaya</span>, memiliki bentuk atap yang khas menyerupai lipatan kebaya. Arsitekturnya tidak hanya indah, tetapi juga sarat dengan makna tentang kehidupan sosial dan budaya masyarakat Betawi.</p>
+                    </div>
+                    <div class="garis-teks">
+                        <svg width="800" height="400">
+                            <defs>
+                                <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                                        refX="0" refY="3.5" orient="auto">
+                                <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+                                </marker>
+                            </defs>
+
+                            <!-- Garis -->
+                            <path id="garisku" 
+                                    d="M 515 100 
+                                    L 400 100 
+                                    C 250 100, 400 250, 400 300" 
+                                    stroke="black" stroke-width="2" fill="none"
+                                    stroke-dasharray="1000"
+                                    stroke-dashoffset="1000">
+                            </path>
+
+                            <!-- Panah statis -->
+                            <path id="garisWithArrow"
+                                    d="M 515 100 
+                                    L 400 100 
+                                    C 250 100, 400 250, 400 300"
+                                    stroke="transparent" stroke-width="2" fill="none"
+                                    marker-end="url(#arrowhead)" />
+                        </svg>
+                    </div>
+                    <div class="picture">
+                        <div class="picture1">
+                            <img src="./aset/rumah-isi.webp">
+                        </div>
+                        <div class="video2">
+                            <video class="review" autoplay muted loop playsinline>
+                                <source src="./aset/review-3d.mp4">
+                            </video>
+                        </div>
+                        <div class="garis-fix">
+                            <svg>
+                                <line class="garis-anim" x1="0" y1="250" x2="500" y2="250" stroke="black" stroke-width="4"></line>
+                            </svg>
+                        </div>
+                        <div class="ghost-box"></div>
+                        
+                    </div>
+                    <div class="tombol-explore" target="_blank">
+                        <a href="https://playcanv.as/b/2971cc3e" class="explore-btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="isi2">
+                <div class="isi2-2">
+                    <div class="garis-isi2-1"></div>
+                    <div class="pic-rumah-isi2">
+                        <img src="./aset/rumag.png">
+                    </div>
+                    <div class="pickecil-all">
+                        <div class="picKecil1">
+                            <div class="foto1">
+                                <img src="./aset/kelapa.png">
+                            </div>
+                            <div class="teks1">
+                                <p>Tiang penopang rumah dibuat dari kayu kelapa yang kuat, sehingga rumah lebih tinggi dan terhindar dari banjir.</p>
+                            </div>
+                            <div class="garis-teks1">
+                            <svg width="800" height="400">
+                                <defs>
+                                    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                                            refX="0" refY="3.5" orient="auto">
+                                    <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+                                    </marker>
+                                </defs>
+
+                                <!-- Garis -->
+                                <path id="garisku" 
+                                        d="M 100 100 
+                                        L 150 100 
+                                        C 200 100, 250 300, 305 250" 
+                                        stroke="black" stroke-width="2" fill="none"
+                                        stroke-dasharray="1000"
+                                        stroke-dashoffset="1000">
+                                </path>
+
+                                <!-- Panah statis -->
+                                <path id="garisWithArrow"
+                                        d="M 100 100 
+                                        L 150 100 
+                                        C 200 100, 250 300, 305 250" 
+                                        stroke="transparent" stroke-width="2" fill="none"
+                                        marker-end="url(#arrowhead)" />
+                            </svg>
+                            </div>
+                        </div>
+                        <div class="picKecil2">
+                            <div class="foto1">
+                                <img src="./aset/tanah-liat.png">
+                            </div>
+                            <div class="teks1">
+                                <p>Atap rumah menggunakan genteng tanah liat yang mampu menahan panas dan hujan.</p>
+                            </div>
+                            <div class="garis-teks2">
+                            <svg width="800" height="400">
+                                <defs>
+                                    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                                            refX="0" refY="3.5" orient="auto">
+                                    <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+                                    </marker>
+                                </defs>
+
+                                <!-- Garis -->
+                                <path id="garisku" 
+                                        d="M 500 100 
+                                        L 400 100 
+                                        C 300 100, 250 150, 100 150" 
+                                        stroke="black" stroke-width="2" fill="none"
+                                        stroke-dasharray="1000"
+                                        stroke-dashoffset="1000">
+                                </path>
+
+                                <!-- Panah statis -->
+                                <path id="garisWithArrow"
+                                        d="M 500 100 
+                                        L 400 100 
+                                        C 300 100, 250 150, 100 150" 
+                                        stroke="transparent" stroke-width="2" fill="none"
+                                        marker-end="url(#arrowhead)" />
+                            </svg>
+                            </div>
+                        </div>
+                        <div class="picKecil3">
+                            <div class="foto1">
+                                <img src="./aset/apus.png">
+                            </div>
+                            <div class="teks1">
+                                <p>Bambu apus dipakai untuk pagar atau sekat dinding, karena lentur dan membuat udara tetap sejuk.</p>
+                            </div>
+                            <div class="garis-teks3">
+                            <svg width="800" height="400">
+                                <defs>
+                                    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                                            refX="0" refY="3.5" orient="auto">
+                                    <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+                                    </marker>
+                                </defs>
+
+                                <!-- Garis -->
+                                <path id="garisku" 
+                                        d="M 100 100 
+                                        L 150 100 
+                                        C 200 100, 300 100, 305 30" 
+                                        stroke="black" stroke-width="2" fill="none"
+                                        stroke-dasharray="1000"
+                                        stroke-dashoffset="1000">
+                                </path>
+
+                                <!-- Panah statis -->
+                                <path id="garisWithArrow"
+                                        d="M 100 100 
+                                        L 150 100 
+                                        C 200 100, 300 100, 305 30" 
+                                        stroke="transparent" stroke-width="2" fill="none"
+                                        marker-end="url(#arrowhead)" />
+                            </svg>
+                            </div>
+                        </div>
+                        <div class="picKecil4">
+                            <div class="foto1">
+                                <img src="./aset/jati.png">
+                            </div>
+                            <div class="teks1">
+                                <p>Dinding dan rangka rumah dibuat dari kayu jati yang kokoh, tahan lama, serta indah dipandang.</p>
+                            </div>
+                            <div class="garis-teks4">
+                            <svg width="800" height="400">
+                                <defs>
+                                    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                                            refX="0" refY="3.5" orient="auto">
+                                    <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+                                    </marker>
+                                </defs>
+
+                                <!-- Garis -->
+                                <path id="garisku" 
+                                        d="M 300 200 
+                                        L 250 200 
+                                        C 200 200, 150 50, 100 60" 
+                                        stroke="black" stroke-width="2" fill="none"
+                                        stroke-dasharray="1000"
+                                        stroke-dashoffset="1000">
+                                </path>
+
+                                <!-- Panah statis -->
+                                <path id="garisWithArrow"
+                                        d="M 300 200 
+                                        L 250 200 
+                                        C 200 200, 150 50, 100 60" 
+                                        stroke="transparent" stroke-width="2" fill="none"
+                                        marker-end="url(#arrowhead)" />
+                            </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="garis-isi2"></div>
+                </div>
+            </div>
+            <div class="sejarah-rumah">
+                <div class="sejarah-rumah1">
+                    <div class="sejarah-rumah-konten">
+                        <div class="gambar-sejarah-rumah">
+                            <img src="./aset/gulungan-kertas.jpg">
+                        </div>
+                        <h1>K</h1>
+                        <h1>E</h1>
+                        <h1>B</h1>
+                        <h1>A</h1>
+                        <h1>Y</h1>
+                        <h1>A</h1>
+                        <div class="teks-sejarah-rumah">
+                            <h2>Asal-usul nama</h2>
+                            <p>Rumah Kebaya mendapat nama dari bentuk atapnya. Bila dilihat dari samping, atapnya menyerupai lipatan kebaya (baju tradisional Betawi dan Nusantara). Dari situlah masyarakat menyebutnya Rumah Kebaya.</p>
+                            <h2>Latar budaya</h2>
+                            <p>Rumah ini lahir dari akulturasi budaya Betawi yang dipengaruhi berbagai etnis: Melayu, Jawa, Arab, Cina, hingga Belanda. Unsur-unsur itu terlihat dari:</p>
+                            <ul>
+                                <li>Atap limasan dengan pelana → mirip gaya rumah tradisional Jawa.</li>
+                                <li>Ukiran pada jendela & pintu → dipengaruhi seni Cina dan Belanda.</li>
+                                <li>Teras luas (serambi) → mencerminkan budaya Betawi yang suka berkumpul, bercengkrama, dan terbuka pada tamu.</li>
+                            </ul>
+                            <h2>Fungsi Sosial</h2>
+                            <p>Rumah Kebaya bukan hanya tempat tinggal, tapi juga menjadi pusat kegiatan sosial keluarga Betawi. Terasnya luas, dilengkapi kursi atau dipan bambu untuk menerima tamu, bercakap, hingga jadi tempat anak-anak bermain.</p>
+                            <h2>Makna simbolis</h2>
+                            <p>Lipatan atap kebaya dianggap melambangkan kesederhanaan, keanggunan, dan identitas wanita Betawi. Selain itu, terbuka dan luasnya serambi rumah melambangkan sikap ramah, terbuka, dan menghargai tamu dalam budaya Betawi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Kuliner-->
+
+        <div class="Kuliner" id="Kuliner">
+            <div class="seluruh">
+                <div class="teks-besar">
+                    <h1>Kuliner</h1>
+                </div>
+                <div class="hiasan">
+                    <img src="./aset/cabai.jpg">
+                    <img src="./aset/jahe.jpg">
+                    <img src="./aset/lengkuas.png">
+                    <img src="./aset/kentang.jpg">
+                </div>
+                <div class="hiasan2">
+                    <img src="./aset/santan.jpg">
+                    <img src="./aset/telur.png">
+                    <img src="./aset/secang.webp">
+                    <img src="./aset/nasi.png">
+                    <img src="./aset/kayu-manis.png">
+                </div>
+                <div class="hiasan3">
+                    <img src="./aset/serai.png">
+                    <img src="./aset/kemiri.png">
+                    <img src="./aset/kunyit.png">
+                    <img src="./aset/kapulaga.png">
+                </div>
+                <div class="lurus"></div>
+                <div class="gambar-besar">
+                    <div class="atas">
+                        <div class="kuliner-pic">
+                            <img id="main-kuliner-img">
+                        </div>
+                        <div class="kuliner-category">
+                            <h2 id="main-category-top"></h2>
+                        </div>
+                        <div class="kuliner-teks-big">
+                            <h1 id="main-kuliner-title"></h1>
+                        </div>
+                        <div class="bayangan"></div>
+                    </div>
+                    <div class="bawah">
+                        <div class="kuliner-teks-small">
+                            <p id="main-kuliner-desc"></p>
+                        </div>
+                        <div class="kuliner-nih">
+                            <div class="kuliner-tag"><p id="main-category-1"></p></div>
+                            <div class="kuliner-tag"><p id="main-category-2"></p></div>
+                        </div>
+                    </div>
+                </div>
+                <a class="kuliner-button" id="main-button" href="#" target="_blank">
+                    <p>Coba Masak</p>
+                </a>
+                <div class="gambar-kecil">
+                    <div class="food" data-food-id="kerak-telor">
+                        <div class="foto">
+                            <img src="./aset/kerak-telor-1.jpg">
+                        </div>
+                        <div class="teks0"> 
+                            <h2>Kerak Telor</h2></div>
+                        </div>
+                    <div class="food" data-food-id="soto-betawi">
+                        <div class="foto">
+                            <img src="./aset/soto-betawi-1.jpg">
+                        </div>
+                        <div class="teks0">
+                            <h2>Soto Betawi</h2>
+                        </div>
+                    </div>
+                    <div class="food" data-food-id="nasi-ulam">
+                        <div class="foto">
+                            <img src="./aset/nasi-ulam-1.jpg">
+                        </div>
+                        <div class="teks0">
+                            <h2>Nasi Ulam</h2>
+                        </div>
+                    </div>
+                    <div class="food" data-food-id="bir-pletok">
+                        <div class="foto">
+                            <img src="./aset/bir-pletok-1.jpg">
+                        </div>
+                        <div class="teks0">
+                            <h2>Bir Pletok</h2>
+                        </div>
+                    </div>
+                    <div class="food" data-food-id="selendang-mayang">
+                        <div class="foto">
+                            <img src="./aset/selendang-mayang-1.jpg">
+                        </div>
+                        <div class="teks0">
+                            <h2>Selendang Mayang</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="sejarah-kuliner">
+                    <div class="gambar-sejarah-kuliner">
+                        <img src="./aset/kertas.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Busana-->
+        <div class="seluruh-busana" id="Busana">
+            <div class="Teks-top"><h1>Busana</h1></div>
+            <div class="Busana">
+                <!--- Pasangan 1-->
+                <div class="pair">
+
+                    <!---Baju Encim-->
+                    <div class="card active">
+                        <div class="kiri">
+                            <img src="./aset/encim.jpeg">
+                            <div class="category-busana"><h2>👚Busana Adat</h2></div>
+                            <div class="shadow-busana"></div>
+                            <h1>Baju Encim</h1>
+                        </div>
+                        <div class="content">
+                            <p>
+                            Busana anggun bercorak floral, kebaya tipis yang dipadukan dengan kain batik atau sarung
+                            yang menonjolkan kehalusan dan keanggunan, serta sering digunakan oleh kaum wanita Betawi
+                            pada acara perayaan dan upacara adat.
+                            </p>
+                            <div class="category-busana-besar-group">
+                                <div class="category-busana-besar"><h2>Elegan</h2></div>
+                                <div class="category-busana-besar"><h2>Anggun</h2></div>
+                            </div>
+                            <div class="tombol-lihat"><a href="#">Lihat dalam 3D</a></div>
+                        </div>
+                    </div>
+
+                    <!--Baju Demang-->
+                    <div class="card">
+                        <div class="kiri">
+                            <img src="./aset/demang.jpg">
+                            <div class="category-busana"><h2>🧥Busana Adat</h2></div>
+                            <div class="shadow-busana"></div>
+                            <h1>Baju Demang</h1>
+                        </div>
+                        <div class="content">
+                            <p>
+                            Busana pria dengan model jas tutup, celana panjang, serta dilengkapi kain batik atau sarung
+                            yang disampirkan. Baju Demang biasanya dikenakan pada acara resmi atau adat, menampilkan
+                            kewibawaan dan kehormatan.
+                            </p>
+                            <div class="category-busana-besar-group">
+                                <div class="category-busana-besar"><h2>Gagah</h2></div>
+                                <div class="category-busana-besar"><h2>Berwibawa</h2></div>
+                            </div>
+                            <div class="tombol-lihat"><a href="#">Lihat dalam 3D</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--- Pasangan 2-->
+                <div class="pair">
+
+                    <!--Baju Pangsi-->
+                    <div class="card">
+                        <div class="kiri">
+                            <img src="./aset/pangsi.jpg">
+                            <div class="category-busana"><h2>🧥Busana Adat</h2></div>
+                            <div class="shadow-busana"></div>
+                            <h1>Baju Pangsi</h1>
+                        </div>
+                        <div class="content">
+                            <p>
+                            Busana tradisional Betawi untuk pria berupa atasan longgar dan celana komprang berwarna hitam. Baju ini biasa dikenakan oleh jawara atau pendekar, mencerminkan kesan tangguh, sederhana, dan penuh wibawa.
+                            </p>
+                            <div class="category-busana-besar-group">
+                                <div class="category-busana-besar"><h2>Tangguh</h2></div>
+                                <div class="category-busana-besar"><h2>Wibawa</h2></div>
+                            </div>
+                            <div class="tombol-lihat"><a href="#">Lihat dalam 3D</a></div>
+                        </div>
+                    </div>
+
+                    <!--Baju Sadariah-->
+                    <div class="card active">
+                        <div class="kiri">
+                            <img src="./aset/sadariah.jpg">
+                            <div class="category-busana"><h2>🧥Busana Adat</h2></div>
+                            <div class="shadow-busana"></div>
+                            <h1>Baju Sadariah</h1>
+                        </div>
+                        <div class="content">
+                            <p>
+                            Busana kemeja putih sederhana yang dipadukan dengan celana panjang, sarung yang diselempangkan di leher, serta peci. Biasanya dikenakan dalam kehidupan sehari-hari dan juga acara keagamaan, menampilkan kesederhanaan dan identitas Betawi.
+                            </p>
+                            <div class="category-busana-besar-group">
+                                <div class="category-busana-besar"><h2>Sederhana</h2></div>
+                                <div class="category-busana-besar"><h2>Khas</h2></div>
+                            </div>
+                            <div class="tombol-lihat"><a href="#">Lihat dalam 3D</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="teks-busana">
+                <div class="teks-awal-busana">
+                    <p>Busana Betawi, seperti baju encim, pangsi, dan ragam pakaian tradisional lainnya,
+                    lahir dari percampuran budaya yang membentuk identitas masyarakat Betawi di Jakarta. 
+                    Sejak abad ke-17, Batavia (sekarang Jakarta) menjadi pusat perdagangan internasional yang 
+                    mempertemukan beragam etnis: Jawa, Sunda, Arab, Tionghoa, India, Belanda, hingga Portugis. 
+                    Dari interaksi inilah muncul akulturasi budaya yang tercermin dalam busana.
+                    </p>
+                </div>
+                <div class="teks-samping">
+                    <div class="teks-samping-busana">
+                        <p>Misalnya, baju encim dipengaruhi oleh pakaian tradisional Tionghoa yang kemudian dipadukan dengan kebaya Nusantara, sering dipakai perempuan Betawi dalam acara resmi maupun sehari-hari.</p>
+                        <p>Sementara baju pangsi, sederhana namun fungsional, dipengaruhi oleh budaya Sunda dan Jawa, menjadi identitas laki-laki Betawi dalam keseharian.</p>
+                        <p>Lalu baju Demang biasanya dikenakan oleh kalangan terpandang atau tokoh adat, terinspirasi dari busana bangsawan Jawa dan pengaruh kolonial, berbentuk jas tutup panjang dipadukan dengan kain batik serta peci yang menampilkan kewibawaan.</p>
+                        <p>Dan baju Sadariah lebih sederhana dan digunakan sebagai pakaian sehari-hari masyarakat Betawi, berupa kemeja longgar yang dipadukan dengan celana pangsi hitam, sering ditambah ikat pinggang dan peci, mencerminkan kesederhanaan serta kepraktisan hidup orang Betawi.</p>
+                    </div>
+                    <div class="teks-samping-busana1">
+                        <div class="gariscoy"></div>
+                        <div class="gariscoy"></div>
+                        <div class="gariscoy"></div>
+                        <div class="gariscoy"></div>
+                    </div>
+                    <div class="teks-samping-busana2">
+                        <h1>Untuk Sehari-hari & Acara Resmi</h1>
+                        <h1>Untuk Sehari-hari</h1>
+                        <h1>Untuk Bangawan</h1>
+                        <h1>Untuk Sehari-hari</h1>
+                    </div>
+                </div>
+                <div class="teks-akhir">
+                    <p>Dengan demikian, busana Betawi bukan sekadar pakaian, tetapi juga bukti sejarah pertemuan lintas budaya yang melahirkan identitas khas Jakarta.</p>
+                </div>
+            </div>
+            <div class="surat"><img src="./aset/surat.png"></div>
+        </div>
+
+                <!-- Sobat Betawi -->
+        <div class="sobat-betawi">
+        <div class="status-indicator" id="statusIndicator">🟢 Backend Siap</div>
+        <div class="chat-container">
+            <div class="chat-header">
+            <div class="batik-pattern"></div>
+            <div class="title-section">
+                <h1>🤝Sobat Betawi</h1>
+                <p>Asisten pintar pelestari budaya Betawi</p>
+            </div>
+            <div class="chat-controls">
+                <button class="control-button" onclick="clearChat()" title="Hapus Chat">🗑️ Clear</button>
+                <button class="control-button" onclick="loadHistory()" title="Muat History">📜 History</button>
+            </div>
+            </div>
+
+            <div class="chat-messages" id="chatMessages">
+            <div class="welcome-message">
+                <h3>Selamat datang di Sobat Betawi! 🎭</h3>
+                <p>Saya adalah asisten AI yang siap membantu Anda mempelajari dan melestarikan budaya Betawi.</p>
+                <div class="suggestions">
+                <button class="suggestion-chip" onclick="sendSuggestion('Ceritakan tentang sejarah Betawi')">📚 Sejarah Betawi</button>
+                <button class="suggestion-chip" onclick="sendSuggestion('Apa saja makanan khas Betawi?')">🍜 Kuliner Betawi</button>
+                <button class="suggestion-chip" onclick="sendSuggestion('Bagaimana cara belajar bahasa Betawi?')">🗣️ Bahasa Betawi</button>
+                <button class="suggestion-chip" onclick="sendSuggestion('Jelaskan tentang seni dan budaya Betawi')">🎨 Seni Betawi</button>
+                </div>
+            </div>
+            </div>
+
+            <div class="typing-indicator" id="typingIndicator">
+            <span style="margin-right: 10px; color: #ff6b35;">Sobat Betawi sedang mengetik</span>
+            <div class="typing-dots">
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+            </div>
+            </div>
+
+            <div class="chat-input-container">
+            <div class="chat-input-wrapper">
+                <input type="text" class="chat-input" id="chatInput" placeholder="Tanya sesuatu tentang budaya Betawi..." />
+                <button class="send-button" id="sendButton" onclick="sendMessage()">➤</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <script src="./sobat-betawi.js"></script>
+
+    </div>
+</body>
+</html>
